@@ -1,0 +1,56 @@
+/* MAIN LAYOUT */
+.dashboard {
+  display: flex;
+}
+
+.main {
+  width: 100%;
+  background: #0f172a;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background: #1e1e2f;
+  color: white;
+  padding: 20px;
+}
+
+.logo {
+  color: #4cafef;
+  margin-bottom: 20px;
+}
+
+/* HEADER */
+.header {
+  background: #111827 !important;
+}
+
+.title {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+/* SEARCH */
+.search {
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 15px;
+}
+
+/* CONTENT */
+.content {
+  padding: 20px;
+  color: white;
+}
+
+/* FOOTER */
+.footer {
+  background: #111827;
+  color: #aaa;
+  text-align: center;
+  padding: 10px;
+}
