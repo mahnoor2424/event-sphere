@@ -14,7 +14,7 @@ import Home from "./Pages/Home";
 import LoginPage from "./Components/Login";
 import RegisterPage from "./Components/Register";
 import ForgotPassword from "./Components/ForgetPassword";
-import EventPage from "./Pages/Eventpage";
+// import EventPage from "./Pages/Eventpage";
 import ExhibitorsPage from './Components/Exhibitors';
 import CreateExpo from './Components/CreateExpo';
 import ManageExpo from './Components/ManageExpo';
@@ -111,7 +111,7 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-        <Route path="/event" element={<EventPage />} />
+{/* ./        <Route path="/event" element={<EventPage />} /> */}
 
         {/* 🔐 ADMIN ROUTES (Protected) */}
         <Route 
