@@ -111,7 +111,6 @@ const App = () => {
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/forgot-password" element={<ForgotPassword />} />
-{/* ./        <Route path="/event" element={<EventPage />} /> */}
 
         {/* 🔐 ADMIN ROUTES (Protected) */}
         <Route 
@@ -173,7 +172,6 @@ const App = () => {
 <Route path="messages" element={<ChatMessenger currentUser={JSON.parse(localStorage.getItem("user") || "{}")} />} />  
    </Route>
 
-        {/* 🔐 ATTENDEE ROUTES (Protected) */}
         <Route 
           path="/attendee" 
           element={
